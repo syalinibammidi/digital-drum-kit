@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Drum Kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="background-circle circle1"></div>
+<div class="background-circle circle2"></div>
+
+<div class="container">
+
+    <header>
+        <h1>Digital Drum Kit</h1>
+        <p>Create beats using keyboard or mouse clicks</p>
+    </header>
+
+    <div id="nowPlaying">
+        Ready to Play
+    </div>
+    <button id="recordBtn">Start Recording</button>
+    <button id="playBtn">Play Recording</button>
+
+    <div class="drum-container">
+
+        <button class="drum" data-key="a">
+            <span class="letter">A</span>
+            <span class="sound">CLAP</span>
+        </button>
+
+        <button class="drum" data-key="s">
+            <span class="letter">S</span>
+            <span class="sound">KICK</span>
+        </button>
+
+        <button class="drum" data-key="d">
+            <span class="letter">D</span>
+            <span class="sound">SNARE</span>
+        </button>
+
+        <button class="drum" data-key="f">
+            <span class="letter">F</span>
+            <span class="sound">TOM</span>
+        </button>
+
+        <button class="drum" data-key="g">
+            <span class="letter">G</span>
+            <span class="sound">HI-HAT</span>
+        </button>
+
+        <button class="drum" data-key="h">
+            <span class="letter">H</span>
+            <span class="sound">CRASH</span>
+        </button>
+
+        <button class="drum" data-key="j">
+            <span class="letter">J</span>
+            <span class="sound">RIDE</span>
+        </button>
+
+    </div>
+
+    <div class="guide">
+        <h3>Keyboard Guide</h3>
+        <p>A → Clap | S → Kick | D → Snare | F → Tom | G → Hi-Hat | H → Crash | J → Ride</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>  
